@@ -8,10 +8,10 @@ $(document).ready( function(){
 	    $('.navbar-container').fadeIn(300);
     });
     contactOverlay();
+    signInOverlay();
 });
 
 (function($){
-	
 	$.fn.snow = function(options){
 		var $flake 			= $('<div id="flake" />').css({'position': 'absolute', 'top': '-50px'}).html('&#8226;'),
 			documentHeight 	= $(document).height(),
@@ -63,9 +63,25 @@ $(document).ready( function(){
 function contactOverlay() {
 	$('#contact').on('click', function() {
 		$('#overlay-contact, .social').fadeIn(500);
+		$('.page-container').css('filter','blur(3px)');
 	});
     
 	$(document).on('click','#overlay-contact',function() {
-        $('#overlay-contact, .social').fadeOut(300)
+        $('#overlay-contact, .social').fadeOut(300);
+        $('.page-container').css('filter','blur(0)');
+
+    });
+}
+
+function signInOverlay() {
+	$('#sign-in').on('click', function() {
+		$('#overlay-sign-in, .sign-in-container').fadeIn(500);
+		$('.page-container').css('filter','blur(3px)');
+	});
+    
+	$(document).on('click','#overlay-sign-in',function() {
+        $('#overlay-sign-in, .sign-in-container').fadeOut(300);
+        $('.page-container').css('filter','blur(0)');
+
     });
 }
