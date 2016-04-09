@@ -2,7 +2,7 @@ The brand new design of the website of UCLA IEEE-Eta Kappa Nu, Iota Gamma chapte
 
 All asset files are included and placed in the same folder.  
 
-Features including: 
+Features including:  
 1. Responsive menu bar  
 2. Contact overlay  
 3. Arrow button and social media buttons hover effects  
