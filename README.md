@@ -1,6 +1,6 @@
-The brand new design of UCLA IEEE-Eta Kappa Nu, iota gamma chapter.  
+The brand new design of the website of UCLA IEEE-Eta Kappa Nu, Iota Gamma chapter.  
 
-All assets files are included and placed in the same folder.  
+All asset files are included and placed in the same folder.  
 
 Features including: 
 1. Responsive menu bar  
