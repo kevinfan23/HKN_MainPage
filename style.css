@@ -28,10 +28,15 @@ body {
     animation: Background 25s ease infinite;
 }
 
+::selection {
+  color: #fff;
+  background: #d6afba !important;
+}
+
 /*** Main Page Style ***/
 .jumbotron-container {
 	position: absolute;
-	top:350px;
+	top:360px;
 	left:50%;
 	-ms-transform:translate(-50%,-50%);
 	-webkit-transform:translate(-50%,-50%);
@@ -60,6 +65,7 @@ h4.page-title{
 	width: 100%;
     height: 30px;
     background: transparent;
+    display: none;
 }
    
 #logo {

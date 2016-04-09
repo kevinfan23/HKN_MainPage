@@ -1,6 +1,12 @@
 $(document).ready( function(){
     $.fn.snow();
     $('.page-title').fadeIn(4500);
+    $(document).on('click', function(){
+	    $('.navbar-container').fadeIn(300);
+    });
+    $('.arrow-down').hover(function(){
+	    $('.navbar-container').fadeIn(300);
+    });
     contactOverlay();
 });
 
