@@ -111,9 +111,15 @@ h4.page-title{
   	margin-left: 50%;
 }
 
+.arrow-up {
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 30px;
+}
+
 nav.social {
 	position: absolute;
-	top:300px;
+	top:320px;
 	left:50%;
 	-ms-transform:translate(-50%,-50%);
 	-webkit-transform:translate(-50%,-50%);
@@ -124,11 +130,20 @@ nav.social {
 
 nav.social a {
 	color: #fff;
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+	padding: 0 40px;
+	text-decoration: none;
+}
+
+#social-email {
+	width: 100px;
 }
 
 nav.social i {
-	padding: 0 40px;
 	font-size: 50px;
+	margin-bottom: 10px;
 }
 
 /*** Sign-in Form ***/
@@ -239,6 +254,75 @@ nav.social i {
 .sign-in-container a.forgot:hover {
 	text-decoration: underline;
 	color: #000;
+}
+
+/*** Main Page Featured Banner ***/
+.slide-up-banner {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #dcd8d8;
+	height: 500px;
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+
+.panel-wrapper {
+	width: 95%;
+	height: 400px;
+	position: relative;
+	left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 150px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+li.panel-container {
+	height: 320px;
+	width: 300px;
+	margin: 0 30px;
+	margin-top: 40px;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+}
+
+li.panel-container img {
+	height: 300px;
+	width: 300px;
+	border-radius: 5px;
+	-webkit-box-shadow: 2px 2px 4px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    2px 2px 4px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         2px 2px 4px 0px rgba(50, 50, 50, 0.75);
+	margin: auto;
+}
+
+li.panel-container figure {
+	height: 300px;
+	width: 300px;
+	margin: 0;
+}
+
+.featured-title {
+	font-family: 'Source Sans Pro', sans-serif;	
+	font-weight: 400;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: inline-block;
+	width: 40px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 33px;
+}
+
+.hkn-classic {
+	display: inline-block;
+	margin-top: 10px;
+	filter: brightness(120%);
 }
 
 /*** Overlay ***/

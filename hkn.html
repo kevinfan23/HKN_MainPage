@@ -6,10 +6,14 @@
 	<title>UCLA Eta Kappa Nu, Iota Gamma Chapter</title>
 	<link href='https://fonts.googleapis.com/css?family=Lato:400, 600' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">	
 	<link rel='stylesheet' href='hover-min.css'/>
+	<link rel='stylesheet' href='component.css'/>
 	<link rel='stylesheet' href='style.css'/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+	<script src="modernizr.custom.js"></script>
+	<script src="toucheffects.js"></script>
 	<script src="home.js"></script>
 </head>
 <body>	 
@@ -38,9 +42,9 @@
 	
 	<! Social contacts -->
 	<nav class="social">
-		<a href="#" class="hvr-float-shadow"><i class="fa fa-facebook"></i></a>
-		<a href="#" class="hvr-float-shadow"><i class="fa fa-instagram"></i></a>
-		<a href="#" class="hvr-float-shadow"><i class="fa fa-envelope-o"></i></a>
+		<a href="#"><i class="fa fa-facebook hvr-float"></i>hkn.ucla</a>
+		<a href="#"><i class="fa fa-envelope-o hvr-float" id="social-email"></i>hkn@ee.ucla.edu</a>
+		<a href="#"><i class="fa fa-instagram hvr-float"></i>@uclahkn</a>
 	</nav>
 	
 	<section class="page-container">
@@ -60,7 +64,71 @@
 		<img id="jumbo-logo" src="hkn.svg">
 		<h4 class="page-title">Electrical Engineering and Computer Engineering Honor Society</h4>
 	</div>
+	
 	<a href="#" class="hvr-buzz-out arrow-down"><img src="arrow-down.png" width='30px'/></a>
+	</section>
+		
+	<section class="slide-up-banner">
+		<a href="#" class="hvr-buzz-out arrow-up"><img src="arrow-up.png" width='30px'/></a>
+		<img class="hkn-classic" src="hkn-crest.png" width="50px" height="auto"/>
+		<h3 class="featured-title">Featured Events</h3>
+		<div class="panel-wrapper">
+			<ul class="panel-list cs-style-4">
+				<li class="panel-container">
+						<figure>
+							<div><img src="HKN_HonorMix1.jpg" alt="img01"></div>
+							<figcaption>
+								<h3>Honors Mixer</h3>
+								<h3 class="caption-des">When: Monday, Jun 13th</h3>
+								<h3 class="caption-des">6:00-7:30PM</h3>
+								<br>
+								<h3 class="caption-des">Where: Boelter 3760</h3>
+								<h3 class="caption-des">Computer Lab</h3>
+								<a href="#">RSVP</a>
+							</figcaption>
+						</figure>
+				</li>
+				<li class="panel-container">
+						<figure>
+							<div><img src="ProfessorLunch_insta.jpg" alt="img02"></div>
+							<figcaption>
+								<h3>Professor Lunch</h3>
+								<h3 class="caption-des">When: Thursday, Jun 16th</h3>
+								<h3 class="caption-des">6:00PM</h3>
+								<br>
+								<h3 class="caption-des">Where: Eng IV 57-127</h3>
+								<h3 class="caption-des">Maxwell Room</h3>
+							</figcaption>
+						</figure>
+				</li>
+				<li class="panel-container">
+						<figure>
+							<div><img src="Townhall_insta.jpg" alt="img03"></div>
+							<figcaption>
+								<h3>EE Town Hall</h3>
+								<h3 class="caption-des">When: Friday, Jun 17th</h3>
+								<h3 class="caption-des">6:00-8:00PM</h3>
+								<br>
+								<h3 class="caption-des">Where: Eng IV 65-127</h3>
+								<h3 class="caption-des">Faraday Room</h3>
+								<a href="#">RSVP</a>							</figcaption>
+						</figure>
+				</li>
+				<li class="panel-container">
+						<figure>
+							<div><img src="ClassPlanning1_insta.jpg" alt="img04"></div>
+							<figcaption>
+								<h3>Honors Mixer</h3>
+								<h3 class="caption-des">When: Monday, Jun 20th</h3>
+								<h3 class="caption-des">6:00-7:30PM</h3>
+								<br>
+								<h3 class="caption-des">Where: Boelter 3760</h3>
+								<h3 class="caption-des">Computer Lab</h3>
+								<a href="#">RSVP</a>							</figcaption>
+						</figure>
+				</li>
+			</ul>
+		</div>
 	</section>
 </body>
 </html>
