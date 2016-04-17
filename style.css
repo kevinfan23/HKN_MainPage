@@ -46,7 +46,7 @@ body {
 }
 
 #jumbo-logo {
-	width: 600px;
+	width: 620px;
 	height: auto;
 }
 
@@ -96,12 +96,12 @@ h4.page-title{
 }
 
 .navbar li a {
-	color: #fff;
+	color: #a6a6a6;
 	text-decoration: none;
 }
 
 .navbar li a:hover {
-	color: #aaaaaa;
+	color: #fff;
 	text-decoration: none;
 }
 
