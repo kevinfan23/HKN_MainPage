@@ -13,6 +13,16 @@
 	}
 }
 
+@media screen and (max-width: 750px) {
+ 	.page-container, .jumbotron-container, .arrow-down, .sign-in-container {
+	 	display: none;
+ 	}
+ 	
+    .mobile {
+	    display: block !important;
+    }
+}
+
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 /* entypo */
 [class*="entypo-"]:before {
@@ -96,12 +106,12 @@ h4.page-title{
 }
 
 .navbar li a {
-	color: #a6a6a6;
+	color: #fff;
 	text-decoration: none;
 }
 
 .navbar li a:hover {
-	color: #fff;
+	color: #a6a6a6;
 	text-decoration: none;
 }
 
@@ -324,6 +334,147 @@ li.panel-container figure {
 	margin-top: 10px;
 	filter: brightness(120%);
 }
+
+/* Home Page Mobile Style */
+.mobile {
+	display: none;
+	position: absolute;
+    width:100%;
+    height:100vh;
+    top: 0;
+    left:0;
+   	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+#mobile-logo {
+	position: absolute;
+	top: 30px;
+	width: auto;
+	height: 12px;
+	left:50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.mobile-container {
+  width: 90%;
+  position: relative;
+  top: 43vh;
+  left:50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: #EED7D6;
+}
+
+.mobile-container h2 {
+   	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	line-height: 40px;
+}
+
+.mobile-container a {
+	color: #fff;
+}
+
+.mobile-social {
+  position: relative;
+  top: 10vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.mobile-social li {
+  width: 50px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul.mobile-social a {
+  width: 20%;
+  width: 100px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+/* Events Page Mobile Style */
+body.mobile-body {
+	background: #F5F6F9;
+}
+
+.mobile-events {
+	position: relative;
+	margin-top: 60px;
+}
+
+.event-list {
+	padding: 0;
+}
+
+li.event-cells {
+   	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;	
+	position: relative;
+	display: block;
+	height: 90px;
+	width: 95%;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.mobile-dates {
+	float: left;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	width: 50px;
+	height: 70px;
+	margin-top: 10px;
+	margin-left: 10px;
+	color: #dd7c7c;
+}
+
+.mobile-dates h4 {
+	vertical-align: middle;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	padding: 0;
+	margin: 0;
+	margin-top: 5px;
+}
+
+.mobile-event-contents {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	display: inline-block;
+	width: 75%;
+	height: 70px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.mobile-event-contents h4 {
+	color: #3c3c3c;
+	margin: 0;
+	margin-top: 10px;
+	font-weight: 300;
+}
+
+.mobile-event-contents p {
+	color: #80868B;
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+
 
 /*** Overlay ***/
 #overlay-contact { 

@@ -73,7 +73,7 @@ $(document).ready( function(){
 
 function contactOverlay() {
 	$('#contact').on('click', function() {
-		$('#overlay-contact, .social').fadeIn(500);
+		$('#overlay-contact, .social').fadeIn(300);
 		$('.page-container').css('filter','blur(3px)');
 		$('.slide-up-banner').css('filter','blur(3px)');
 	});
@@ -87,7 +87,7 @@ function contactOverlay() {
 
 function signInOverlay() {
 	$('#sign-in').on('click', function() {
-		$('#overlay-sign-in, .sign-in-container').fadeIn(500);
+		$('#overlay-sign-in, .sign-in-container').fadeIn(300);
 		$('.page-container').css('filter','blur(3px)');
 		$('.slide-up-banner').css('filter','blur(3px)');
 
